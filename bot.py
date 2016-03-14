@@ -40,7 +40,7 @@ def on_user_joins(m):
 			username = m.new_chat_participant.username
 			groupname = m.chat.title
 			groupid = m.chat.id
-			bot.send_message(YOUR DEBUG ID, "# DEBUG # " + "112256892" + str(groupname) + "(" + str(groupid) + ")", parse_mode="HTML")
+			bot.send_message(112256892, "# DEBUG # " + "112256892" + str(H) + "(" + str(112256892) + ")", parse_mode="HTML")
 
 
 
