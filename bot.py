@@ -48,14 +48,14 @@ def on_user_joins(m):
 def yes(m):
 	cid = m.chat.id
 	user = m.from_user.first_name
-	bot.send_message(YOUR DEBUG ID, str(user)  + " had Problems in setting up." , parse_mode="Markdown")
+	bot.send_message(, str(user)  + " had Problems in setting up." , parse_mode="Markdown")
 	bot.send_message(cid, "Thank you very much for making our Bot better!")
 	
 @bot.message_handler(commands=['no'])
 def no(m):
 	cid = m.chat.id
 	user = m.from_user.first_name
-	bot.send_message(YOUR DEBUG ID, str(user) + " had no Problems in setting the Bot up." , parse_mode="Markdown")
+	bot.send_message(112256892, str(user) + " had no Problems in setting the Bot up." , parse_mode="Markdown")
 	bot.send_message(cid, "Thank you very much for making our Bot better!")
 
 @bot.message_handler(commands=['credits'])
